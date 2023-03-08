@@ -30,11 +30,11 @@ let NftModal: React.FC<IProps> = (props: IProps) => {
         <div >
             <section className='bg-gray'>
                 <div className=''>
-                    <Grid container spacing={1}>
-                        <Grid item xs={4}>
+                    <Grid container spacing={1} className='content-flex'>
+                        <Grid item sm={4} xs={4} >
                             <img src={props.image} alt='Altura' width='200' />
                         </Grid>
-                        <Grid item xs={8}>
+                        <Grid item xs={4}>
                             <div className='d-flex justify-content-between'>
                             <h4 className='font-w-700'>{props.name}</h4>
                             <HashLink to={props.website}>

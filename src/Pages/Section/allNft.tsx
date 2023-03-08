@@ -23,7 +23,7 @@ export default function AllNft(){
       }
     return(
         <>
-              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+              <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 1, sm: 8, md: 12 }}>
             {Nfts.map((nft, i) => (
               <Grid xs={2} sm={4} md={4} key={i}>
                 <CardTemplate onclick={() => openModal(nft.id as number)} image={nft.image}
