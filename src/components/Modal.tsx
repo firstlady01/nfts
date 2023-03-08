@@ -32,7 +32,7 @@ let NftModal: React.FC<IProps> = (props: IProps) => {
                 <div className=''>
                     <Grid container spacing={1} className='content-flex'>
                         <Grid item sm={4} xs={4} >
-                            <img src={props.image} alt='Altura' width='200' />
+                            <img src={props.image} alt='Altura' width='200' className='width'/>
                         </Grid>
                         <Grid item xs={4}>
                             <div className='d-flex justify-content-between'>
