@@ -1,0 +1,84 @@
+.card-container:hover {
+    transform: translate(15px);
+}
+
+.card-container {
+    box-shadow: 0px 2px 4px rgb(2 25 65 / 27%);
+    border-radius: 18px;
+}
+
+.banner img {
+    height: 100vh;
+    width: -webkit-fill-available;
+}
+
+.banner p {
+    color: white;
+    text-align: left;
+    position: absolute;
+    bottom: 18rem;
+    font-size: 95px;
+    line-height: 88px;
+    margin-left: 4rem;
+}
+
+.banner-icon svg {
+    text-align: left;
+    position: relative;
+    top: -12rem;
+    font-size: 66px;
+    margin-right: 4rem;
+}
+
+.zoom {
+    transition: transform .1s;
+}
+
+.zoom:hover {
+    transform: scale(1.07);
+}
+
+.radius-25 {
+    border-radius: 25px;
+}
+
+.btn-primary-custom {
+    background-color: #021941 !important;
+    border-color: #021941 !important;
+    text-transform: uppercase;
+}
+
+.btn-primary-custom:hover {
+    background-color: #042256 !important;
+    border-color: #042256 !important;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.08) !important;
+}
+.font-w-700 {
+    font-weight: 700;
+}
+.text-gray{
+    color: gray;
+}
+.pill{
+    background-color: #042256;
+    padding: .5rem;
+    color: white;
+}
+.pill p{
+    margin-bottom: unset !important;
+    margin-top: unset !important;
+}
+.modal-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 800px;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+    padding: 32px;
+}
