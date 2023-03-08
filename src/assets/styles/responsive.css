@@ -1,0 +1,51 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner {
+        display: none;
+    }
+
+    #list {
+        margin-top: 5rem;
+    }
+
+    .card-container {
+        width: 18rem !important;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .css-a5rdam-MuiGrid-root {
+        display: block !important;
+    }
+
+    .width {
+        width: -webkit-fill-available;
+        margin-bottom: 1rem;
+        height: 150px;
+    }
+
+    .css-gj1fbr-MuiGrid-root {
+        max-width: 100% !important;
+    }
+
+    .css-a5rdam-MuiGrid-root {
+        max-width: 100% !important;
+    }
+
+    .content-flex {
+        display: contents;
+    }
+
+    .modal-container {
+        width: 320px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner {
+        display: none;
+    }
+
+    #list {
+        margin-top: 5rem;
+    }
+}

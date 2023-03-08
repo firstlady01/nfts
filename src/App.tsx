@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import './assets/styles/responsive.css';
 import Home from './Pages/Home';
 import { Routes, Route } from 'react-router-dom';
 
